@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseFloat(prompt('Enter Number 1'))
+        var b = parseFloat(prompt('Enter Number 2'))
+        document.write('The sum is ' + (a+b) + '<br>')
+        var x = parseFloat(prompt('Enter Number 1'))
+        var y = parseFloat(prompt('Enter Number 2'))
+        document.write('The difference is ' + (x-y) + '<br>')
+        var num1 = parseFloat(prompt('Enter Number 1'))
+        var num2 = parseFloat(prompt('Enter Number 2'))
+        var product = num1*num2
+        var num = parseFloat(prompt('Enter Number 1'))
+        var denum = parseFloat(prompt('Enter Number 2'))
+        var result = num/denum
+        var num3 = parseFloat(prompt('Enter Number 1'))
+        document.write('The remainer is ' + (num3%3) + '<br>')
+        var value = parseFloat(prompt('Enter Number 1'))
+        if (value>=100){
+            document.write('Number is greater/equal than 100')
+        }
+        else{
+            document.write('Number is less than 100')
+        }
+        var string = prompt('Enter a string')
+        var string2 = prompt('Enter a string')
+        if (string===string2){
+            document.write('The strings are equal')
+        }
+        else{
+            document.write('The strings are not equal')
+        }
+        if (string==string2){
+            document.write('The strings are equal')
+        }
+        else{
+            document.write('The strings are not equal')
+        }
+        var age = parseFloat(prompt('Enter your age'))
+        if (age>=18){
+            document.write('true')
+        }
+        else{
+            document.write('false')
+        }
+        var score = parseFloat(prompt('Enter your score'))
+        if (score>=50 && score<=100){
+            document.write('Valid')
+        }
+        else{
+            document.write('Not Valid')
+        }
+        var count = 0
+        document.write(count+=1)
+        var num = 0
+        document.write(num+=1)
+        document.write(num-=1)
+    </script>
+</body>
+</html>
